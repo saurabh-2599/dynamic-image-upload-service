@@ -5,22 +5,14 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
-		{
-			"name": "New Request",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": null
-			},
-			"response": []
-		},
+		
 		{
 			"name": "getAllUsers",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/users",
+					"raw": "http://127.0.0.1:8002/api/users",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -28,7 +20,7 @@
 						"0",
 						"1"
 					],
-					"port": "8000",
+					"port": "8002",
 					"path": [
 						"api",
 						"users"
@@ -43,7 +35,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/users",
+					"raw": "http://127.0.0.1:8002/api/users",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -51,7 +43,7 @@
 						"0",
 						"1"
 					],
-					"port": "8000",
+					"port": "8002",
 					"path": [
 						"api",
 						"users"
@@ -66,7 +58,7 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/users/{:id}",
+					"raw": "http://127.0.0.1:8002/api/users/{:id}",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -74,7 +66,7 @@
 						"0",
 						"1"
 					],
-					"port": "8000",
+					"port": "8002",
 					"path": [
 						"api",
 						"users",
@@ -90,7 +82,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/users/{:id}",
+					"raw": "http://127.0.0.1:8002/api/users/{:id}",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -98,7 +90,7 @@
 						"0",
 						"1"
 					],
-					"port": "8000",
+					"port": "8002",
 					"path": [
 						"api",
 						"users",
@@ -111,10 +103,10 @@
 		{
 			"name": "imageupload",
 			"request": {
-				"method": "DELETE",
+				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/uploads/{:entity}/{:id?}",
+					"raw": "http://127.0.0.1:8002/api/uploads/{:entity}/{:id?}",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -122,7 +114,7 @@
 						"0",
 						"1"
 					],
-					"port": "8000",
+					"port": "8002",
 					"path": [
 						"api",
 						"uploads",
